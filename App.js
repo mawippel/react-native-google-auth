@@ -15,7 +15,7 @@ export default class App extends React.Component {
     try {
       const result = await Expo.Google.logInAsync({
         androidClientId:
-          "767109296913-s5s4iarghli9i6ed2fmmtf984uot6ub7.apps.googleusercontent.com",
+          "PUT_KEY_HERE",
         scopes: ["profile", "email"]
       })
 
